@@ -20,8 +20,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @RestController
 @RequestMapping("/api/v1/productos")
-// @CrossOrigin(origins = "http://localhost:5173")
-@CrossOrigin
+@CrossOrigin(origins = "https://front-adso-main.vercel.app")
 public class ProductoController {
     @Autowired
     private ProductoService productoService;
